@@ -1,0 +1,154 @@
+.question{
+    height:650px;
+    width:1000px;
+    background-color:#C8FFD4  ;
+}
+.fa{
+    display: flex;
+    padding-left: 50px;
+     
+}
+.f{
+    padding-left: 500px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.flower{
+    padding-top: 30px;
+}
+.question{
+    margin-left: 150px;
+    border-radius: 2%;
+}
+.emo1{
+    margin-left: 100px;
+}
+.emo2{
+    margin-left: 100px;
+    margin-top: 200px;
+}
+.rain{
+   margin-top: -200px; 
+}
+#accordian{
+    margin:20px auto;
+    
+}
+ 
+#accordian li{
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+     
+
+}
+#accordian li label{
+    padding: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#accordian li label span{
+    
+    font-size: 5px;
+    
+}
+#accordian label + input[type="radio"]{
+display: none;
+}
+#accordian .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow:hidden;
+   transition: max-height 0.5s ; 
+   border-bottom: 2px solid black;
+   margin-right: 30px;
+}
+#accordian label + input[type="radio"]:checked + .content {
+    max-height: 400px;
+}
+@media only screen and (max-width: 600px){
+    .question{
+        height:670px;
+        width:1000px;
+        background-color:#C8FFD4  ;
+    }
+    .fa{
+      
+        padding-left: 10px;
+         
+    }
+    .f{ width:340px;
+        padding-left: 40px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .flower{
+        display: none;
+        padding-top: 30px;
+    }
+    .question{
+        margin-left: 0px;
+        border-radius: 2%;
+    }
+    .emo1{
+        display: none;
+        margin-left: 100px;
+    }
+    .emo2{
+        display: none;
+        margin-left: 100px;
+        margin-top: 200px;
+    }
+    .rain{
+        display: none;
+       margin-top: -200px; 
+    }
+    #accordian{
+        margin:10px auto;
+        
+    }
+     
+    #accordian li{
+        list-style: none;
+        margin-bottom: 10px;
+        padding: 5px;
+        border-radius: 4px;
+         
+    
+    }
+    #accordian li label{
+        padding: 5px;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    #accordian li label span{
+        
+        font-size: 5px;
+        
+    }
+    #accordian label + input[type="radio"]{
+    display: none;
+    }
+    #accordian .content{
+        padding: 0 10px;
+        line-height: 26px;
+        max-height: 0;
+        overflow:hidden;
+       transition: max-height 0.5s ; 
+       border-bottom: 2px solid black;
+       margin-right: 30px;
+    }
+    #accordian label + input[type="radio"]:checked + .content {
+        max-height: 400px;
+    }
+}

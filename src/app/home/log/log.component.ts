@@ -20,7 +20,7 @@ export class LogComponent {
   constructor(private http: HttpClient,private router:Router) {}
 
   login() {
-    this.http.post('http://localhost:7700/login', { email: this.email, password: this.password })
+    this.http.post('https://developers-back.onrender.com/login', { email: this.email, password: this.password })
       .subscribe((response: any) => {
         console.log(response.message);
         this.router.navigate(['/home']);

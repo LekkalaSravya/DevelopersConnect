@@ -6,8 +6,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ApiserviceService {
-  cUrl="http://localhost:7700/signup";
-  apiUrl="http://localhost:7700/login";
+  cUrl="https://developers-back.onrender.com/signup";
+  apiUrl="https://developers-back.onrender.com/login";
   constructor(private http:HttpClient) { }
   createData(data:any):Observable<any>{
     console.log(data,'Data Created');

@@ -12,10 +12,14 @@ import { FaqComponent } from './home/faq/faq.component';
 import { ContactComponent } from './home/contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { PhoComponent } from './home/pho/pho.component';
+import { PaymentComponent } from './home/payment/payment.component';
+import { LogComponent } from './home/log/log.component';
+import { SignupComponent } from './home/signup/signup.component';
+import { NavComponent } from './home/nav/nav.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet,HomepageComponent,ServiceComponent,NavbarComponent,MatIconModule,WorksComponent,ChartComponent,PlanComponent,FaqComponent,ContactComponent,FooterComponent,PhoComponent],
+  imports: [CommonModule, RouterOutlet,HomepageComponent,ServiceComponent,NavbarComponent,MatIconModule,WorksComponent,ChartComponent,PlanComponent,FaqComponent,ContactComponent,FooterComponent,PhoComponent,PaymentComponent,LogComponent,SignupComponent,NavComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

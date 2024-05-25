@@ -1,0 +1,275 @@
+h3{
+    color:black;
+    font-size: 52px;
+    padding-left: 600px;
+    margin-bottom: 10px;
+    margin-top: -220px;
+}
+   span {
+    color :#FBC844;
+}
+.center{
+    padding-left:300px;
+    margin-top: -260px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+     
+}
+.center h4{
+   font-size: 52px;
+    
+}
+
+h2{
+     
+    font-size: 52px;
+    padding-left: 250px;
+    padding-top: 5px;
+}
+p{  padding-top: 45px;
+    padding-left: 180px;
+    font-size: 25px;
+    padding-bottom: 45px;
+}
+a{   
+    padding: 10px;
+    margin-left: 200px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    box-shadow: 5px 5px;
+    border-radius: 10%;
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+} 
+.nav{
+    margin-left: 200px;
+    padding-left:50px ;
+}
+.but{
+    background-color: #FBC844;
+    color:black;
+    margin-bottom: 3px;
+}
+.bulb{
+width: 141.06px;
+height: 141.51px;
+transform: rotate(2.13deg);
+margin-left: 60px;
+margin-top: -10px;
+}
+.wheel{
+    
+    margin-left: 30px;
+    height:250px;
+    width:250px;
+     position: relative; 
+    animation: bounce 3s infinite;
+}
+@keyframes bounce{
+    
+    
+    0%{
+        height:200px;
+        width:200px;
+        transform:translateY(200px);
+    }
+}
+.dot-1{
+    padding-left: 1250px;
+}
+.dot-2{
+    padding-left: 1310px;
+}
+.dot-3{
+    padding-left: 1370px;
+}
+.dot-4{
+    padding-left: 1430px;
+}
+.dot-5{
+    padding-left: 1490px;
+}
+.dot{
+    padding-top: 30px;
+}
+.bright{
+    padding-left: 1300px;
+    margin-top: -30px;
+    position: relative;
+    
+}
+.star{
+    padding-left: 1200px;
+    padding-top: 140px;    
+}
+.com{
+     
+    background-color:black;
+    padding: 10px;
+    height: 80px;
+}
+.com img{
+    padding-top: 10px;
+    padding-left: 110px;
+    height:50px;
+}
+.flow{
+  margin-top: -200px;
+  padding-left: 1296px;
+  height:250px;
+}
+.wor{
+  padding-bottom:50px;
+}
+.pos{
+    color:black;
+}
+.a{
+    display: none;
+}
+.star1{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    h3{
+        color:black;
+        font-size: 40px;
+        padding-left: 60px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+       span {
+        color :#FBC844;
+    }
+    .center{
+        padding-left:100px;
+        margin-top: 40px;
+        padding:5px;
+        padding-bottom: 30px;  
+    }
+    .center h4{
+       font-size: 23px;
+       padding-left: 30px; 
+       font-weight: bold; 
+    }
+    
+    h2{ 
+        font-size: 23px;
+        font-weight: bold;
+        padding-left: 30px;
+        padding-top: 5px;
+        margin-top: -25px;
+    }
+    p{  padding-top: 5px;
+        padding-left: 30px;
+        font-size: 20px;
+        padding-bottom: 45px;
+    }
+    a{  
+        margin-top: -70px;  
+        padding: 5px;
+        margin-left: 30px;
+        border-top: 2px solid black;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+        font-size: 20px;
+        box-shadow: 5px 5px;
+        border-radius: 10%;
+        text-decoration: none;
+        color:black;
+        background-color: #FBC844;
+    } 
+    .a{
+         display: inline-block;
+    }
+    .but{
+        background-color: #FBC844;
+        color:black;
+        margin-bottom: 3px;
+    }
+    .bulb{
+    width: 80px;
+    height: 80px;
+    transform: rotate(2.13deg);
+    margin-left: 10px;
+    margin-top: 0px;
+    }
+     
+    .wheel{
+        display: none;
+        /* margin-left: 30px;
+        height:100px;
+        width:100px;
+         position: relative; 
+        animation:   20s infinite; */
+    }
+    
+    .star1{
+        display:block;
+        padding-left: 200px;
+        height:50px;
+        padding-top: -10px;
+    } 
+    .dot-1{
+         display:none;
+    }
+    .dot-2{
+        display:none;
+    }
+    .dot-3{
+        display:none;
+    }
+    .dot-4{
+        display:none;
+    }
+    .dot-5{
+        display:none;
+    }
+    .dot{
+        height:0;
+    }
+     
+    .bright{
+        padding-left: 230px;
+        margin-top: -200px;
+        position: relative;   
+    }
+    .star{
+        display:none;
+        padding-left: 280px;
+        height:50px;
+        padding-top: 0px;    
+    }
+    .com{
+         
+        background-color:black;
+        padding: 0px;
+        height: 80px;
+    }
+    .com img{
+        padding-top: 10px;
+        padding-left: 10px;
+        height:31px;
+    }
+    .f{
+        display: none;
+    }
+    .flow{
+      margin-top: -10px;
+      padding-left: 210px;
+      height:150px;
+    }
+    .wor{
+      padding-bottom:50px;
+      width:350px;
+    }
+    .nav{
+        display: none;
+    }
+   
+    }

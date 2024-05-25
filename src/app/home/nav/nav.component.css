@@ -1,0 +1,40 @@
+.navbar{
+    margin-top:50px;
+    margin-left: 400px;
+    margin-right: 300px;
+    padding: 10px;
+    padding-left: 50px;
+    background-color: black;
+    border-radius: 50px;
+}
+.nav-link{
+     margin-left: 20px;
+    font-size: 20px;
+    color:white;
+    cursor: pointer;
+}
+.button{
+    border-left: 20px solid #FBC844;
+    border-top: 2px solid #FBC844 ;
+    border-right: 20px solid #FBC844;
+    border-bottom: 2px solid #FBC844;
+    border-radius: 50px;
+    background-color: #FBC844;
+    
+ 
+}
+@media only screen and (max-width: 600px) {
+    .navbar{
+        margin-top:50px;
+        margin-left: 300px;
+        margin-right: 300px;
+        padding: 10px;
+        padding-left: 50px;
+        border-radius: 50px;
+    }
+    .nav-link{
+        margin-left: 20px;
+       font-size: 20px;
+       color:white;
+   }
+}
